@@ -3,7 +3,7 @@
 This project uses Laravel and Vue.js for demonstration purposes.
 
 - Laravel version 5.4 was used so that it maybe compatible with PHP 5.6 but (theoretically) should also be compatible with higher PHP versions.
-- The project uses the default Blade templating engine for the base HTML (head, css, script tags) in combination with Vue generated UIs for user interactions (registration, login, etc).  
+- The project uses the default Blade templating engine for the base HTML (head, link, script tags) in combination with Vue generated UIs for user interactions (registration, login, etc).  
 - Debug is enabled by default.
 - node modules and vendor packages are included.  If any issues occur, please run npm install to update the node modules
 - Please update the .env file accordingly
