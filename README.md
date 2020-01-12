@@ -7,3 +7,4 @@ This project uses Laravel and Vue.js for demonstration purposes.
 - node modules and vendor packages are included.  If any issues occur, please run npm install to update the node modules
 - Please update the .env file accordingly
 - Some files do have documentation in the form of doc blocks.  Will be updating for further documentation if required. 
+- The CSS and Javascript public files have been optimized for production.
