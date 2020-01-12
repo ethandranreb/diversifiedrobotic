@@ -9,6 +9,10 @@ use Illuminate\Support\Facades\DB;
 use Auth;
 use Illuminate\Support\Facades\Hash;
 
+/**
+ * This is the main class for the member once logged in
+ * All backend process are here once a member has created an account and logged in
+ */
 class DashboardController extends Controller
 {
     private $max_items_per_page = 25;
