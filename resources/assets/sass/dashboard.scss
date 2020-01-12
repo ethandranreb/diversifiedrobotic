@@ -1,0 +1,38 @@
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,300i,400&display=swap');
+
+// Variables
+@import "variables";
+
+// Bootstrap
+// @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+@import "../../../node_modules/bootstrap/dist/css/bootstrap.css";
+
+@import "error-handling";
+
+@import "../font-awesome/css/font-awesome.css";
+
+@import "jquery-confirm.min.css";
+
+@import "jquery-confirm-my-theme";
+
+.class-offline {
+    color: #6c757d !important;
+}
+
+.class-active {
+    color: #28a745 !important;
+}
+
+.class-away {
+    color: #ffc107 !important;
+}
+
+.modal-header {
+    border-bottom: unset;
+}
+
+.modal-footer {
+    border-top: unset;
+}

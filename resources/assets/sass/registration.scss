@@ -1,0 +1,84 @@
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,300i,400&display=swap');
+
+// Variables
+@import "variables";
+
+// Bootstrap
+// @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+@import "../../../node_modules/bootstrap/dist/css/bootstrap.css";
+
+@import "error-handling";
+
+@import "../font-awesome/css/font-awesome.css";
+
+@import "jquery-confirm.min.css";
+
+@import "jquery-confirm-my-theme";
+
+body {
+    background-size: cover;
+    font-family: Roboto, FontAwesome, Arial, Helvetica, sans-serif;
+}
+
+.logo {
+    text-align: center;
+}
+
+.login-block {
+    width: 320px;
+    padding: 20px;
+    background: #fff;
+    // border-radius: 5px;
+    border-top: 5px solid #0069d9;
+    margin: 0 auto;
+}
+
+.login-block h1 {
+    text-align: center;
+    color: #000;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.login-block input {
+    width: 100%;
+    height: 42px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    // margin-top: 20px;
+    font-size: 14px;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    padding: 0 20px 0 50px;
+    outline: none;
+}
+
+.login-block input#username {
+    background-size: 16px 80px;
+}
+
+.login-block input#username:focus {
+    background-size: 16px 80px;
+}
+
+.login-block input#password {
+    background-size: 16px 80px;
+}
+
+.login-block input#password:focus {
+    background-size: 16px 80px;
+}
+
+// .login-block input:active, .login-block input:focus {
+//     border: 1px solid #ff656c;
+// }
+
+.login-block button {
+    width: 100%;
+    border-radius: unset;
+    margin-top: 20px;
+}
