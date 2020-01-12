@@ -8,3 +8,7 @@ This project uses Laravel and Vue.js for demonstration purposes.
 - Please update the .env file accordingly
 - Some files do have documentation in the form of doc blocks.  Will be updating for further documentation if required. 
 - The CSS and Javascript public files have been optimized for production.
+- The root of the project directs to the login page.  A link to the registration page has been provided.
+- Additional Javascript libraries should be compatible with most, if not all, modern browsers.
+- uses Google Font CDN
+- Bootstrap is installed as a node package
